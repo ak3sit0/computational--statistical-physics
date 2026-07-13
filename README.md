@@ -15,7 +15,7 @@ ensemble averaging, and finite-size critical analysis.
 | Module | Model | Method | Key result |
 |--------|-------|--------|-----------|
 | [`spin-models/ising`](spin-models/ising) | 2D Ising | Metropolis and Wolff Monte Carlo, Binder cumulant | Ferro–para transition; recovers Onsager's exact `Tc = 2/ln(1+√2) ≈ 2.269` |
-| [`spin-models/xy`](spin-models/xy) | 2D XY | Metropolis, vortex detection | Kosterlitz–Thouless transition |
+| [`spin-models/xy`](spin-models/xy) | 2D XY | Metropolis, spatial correlations G(r) | Quasi-long-range order (algebraic vs. exponential decay) |
 | [`vicsek`](vicsek) | Vicsek | Self-propulsion, threaded ensembles | Order–disorder transition (out of equilibrium), `φ(η)` |
 | [`kuramoto`](kuramoto) | Kuramoto | Coupled phase oscillators | Spontaneous synchronization, order parameter `r(K)` |
 | [`random-walks`](random-walks) | Brownian, Ornstein–Uhlenbeck, Run-and-Tumble, resetting | Langevin dynamics, MSD | Diffusion, persistence, stochastic resetting |

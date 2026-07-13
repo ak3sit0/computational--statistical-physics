@@ -1,0 +1,21 @@
+name = "statistical-physics-computational"
+uuid = "7a3c4f2e-8b5d-4c9a-1f0e-6d2c3b8a7f9e"
+authors = ["José Ake <chatgptpoderoso2@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f2afa"
+
+[targets]
+test = ["Test"]
+
+[compat]
+DataFrames = "1.6"
+IJulia = "1.24"
+Plots = "1.38"
+julia = "1.9"

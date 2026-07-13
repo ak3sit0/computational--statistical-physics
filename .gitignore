@@ -1,0 +1,41 @@
+# Heavy data / artifacts (EXCLUDED from git)
+*.mtx
+*.edges
+*.gz
+**/cache/
+**/*.mp4
+**/*.mov
+**/*.avi
+
+# Exception: results/images are OK (published results)
+!results/**/*.png
+!results/**/*.svg
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+Untitled*.ipynb
+.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# Julia
+Manifest.toml
+/.julia/
+*.jl.swp
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble/
